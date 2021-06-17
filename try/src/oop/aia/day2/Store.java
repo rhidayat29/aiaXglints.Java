@@ -1,10 +1,10 @@
-package tryagin;
+package oop.aia.day2;
 
-public class Main {
+public class Store {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hello");
+
 	}
 
 }
