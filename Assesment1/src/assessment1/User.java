@@ -1,4 +1,4 @@
-package assestment1;
+package assessment1;
 import java.util.Scanner;
 
 import encodeDecode.Main;

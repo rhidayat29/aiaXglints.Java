@@ -1,4 +1,4 @@
-package School;
+package school;
 
 abstract class Person {
 	

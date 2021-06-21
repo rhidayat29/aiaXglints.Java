@@ -1,10 +1,10 @@
-package assestment1;
+package assessment1;
 
 
 import java.util.Scanner;
 
-import School.Student;
-import School.Teacher;
+import school.Student;
+import school.Teacher;
 
 public class Register {
     
