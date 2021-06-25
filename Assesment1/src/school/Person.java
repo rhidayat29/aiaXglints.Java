@@ -1,11 +1,18 @@
 package school;
 
+import java.util.Scanner;
+
 abstract class Person {
 	
 	protected String nameIs;
 	protected String addressIs;
-	
-	public Person(String name, String address) {
+	Scanner myObj = new Scanner(System.in);
+	public Person() {
+	    System.out.print("Enter Name: ");
+        String name = myObj.nextLine();
+        System.out.print("Enter Address: ");
+        String address = myObj.nextLine();// Read user input
+        
 		nameIs = name;
 		addressIs = address;
 	}

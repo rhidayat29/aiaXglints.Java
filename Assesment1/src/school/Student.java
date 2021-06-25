@@ -2,6 +2,7 @@ package school;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Student extends Person {
     int numCourses = 0;
@@ -10,9 +11,11 @@ public class Student extends Person {
     double averageGrade = 0;
     ArrayList<Integer> inputGrade = new ArrayList<Integer>(Arrays.asList(grades));
     ArrayList<String> inputCourse = new ArrayList<String>(Arrays.asList(courses));
-
-    public Student(String name, String address) {
-        super(name, address);
+    Scanner myObj = new Scanner(System.in);
+    
+    
+    public Student() {
+        super();
         System.out.println("\n====== Welcome Student ======\n");
 
         // TODO Auto-generated constructor stub
