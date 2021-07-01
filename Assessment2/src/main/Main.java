@@ -19,6 +19,8 @@ public class Main {
         square1.setLength(10.0);
         square1.setWidth(10.0);
         System.out.println(square1.toString());
+        
+        
     }
 
 }
